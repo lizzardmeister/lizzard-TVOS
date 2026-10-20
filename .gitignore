@@ -1,0 +1,14 @@
+# deps
+node_modules/
+
+# build
+app/dist/
+app/out/
+
+# editor / os
+.DS_Store
+Thumbs.db
+*.log
+
+# webos
+.ares/

@@ -1,0 +1,19 @@
+{
+  "name": "lizzard-tvos-launcher",
+  "version": "0.1.0",
+  "description": "Launcher próprio para LG webOS",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "package": "npm run build && ares-package dist -o out",
+    "install-tv": "ares-install -d tv out/*.ipk",
+    "launch-tv": "ares-launch -d tv com.lizzard.tvos.launcher"
+  },
+  "devDependencies": {
+    "@webos-tools/cli": "^3.1.0",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "com.lizzard.tvos.launcher",
+  "version": "0.1.0",
+  "vendor": "lizzard",
+  "type": "web",
+  "main": "index.html",
+  "title": "lizzard-TVOS",
+  "icon": "icon.png",
+  "largeIcon": "icon-large.png",
+  "bgColor": "#0a0a0f",
+  "iconColor": "#3ddc84",
+  "disableBackHistoryAPI": true,
+  "supportTouchMode": "none"
+}
